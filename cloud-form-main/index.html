@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>andrep</title>
+</head>
+
+<body>
+
+  <h3>By andrep</h3>
+
+  <div>
+    <form id="clearFrom">
+      <label for="img">Link IMG</label>
+      <input type="text" id="img" pattern="https://.+" name="lastname" placeholder="Link IMG.." value="https://firebasestorage.googleapis.com/v0/b/koraid.appspot.com/o/product%2Ftest%2Fandrep.png?alt=media&token=f0e0d338-f3ed-4bd7-aace-1ecf9f92ebbb">
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="firstname" placeholder="Name.." value="Ini adalah nama dari produk">
+
+      <label for="author">Author</label>
+      <input type="text" id="author" name="firstname" placeholder="Author.." value="andrep">
+
+      <label for="harga">Harga</label>
+      <input type="text" id="harga" name="lastname" placeholder="Harga.." value="0">
+
+      <label for="displayPreview">Preview</label>
+      <select id="displayPreview" name="displayPreview">
+        <option value="none">None</option>
+        <option value="">Publik</option>
+      </select>
+
+      <label for="displayBuy">Buy</label>
+      <select id="displayBuy" name="displayBuy">
+        <option value="none">None</option>
+        <option value="">Publik</option>
+      </select>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

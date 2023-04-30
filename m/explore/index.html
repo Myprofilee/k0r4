@@ -3,14 +3,14 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="author" content="Sortnio">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,  initial-scale=1.0">
-    <meta name="author" content="kora">
-    <meta name="keywords" content="kora">
-    <title>Kora</title>
-    <link rel="icon" sizes="16x16" href="images/favicon.png">
+    <meta name="description" content="EnftyMart - NFT Marketplace html Template">
+    <meta name="keywords" content="nft, crypto, html5 template">
+    <title>Explore | EnftyMart - NFT Marketplace HTML Template</title><!-- Favicon -->
+    <link rel="icon" sizes="16x16" href="images/favicon.png"><!-- Stylesheets -->
 
-    <!-- Stylesheets -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/vendor.bundle.css?ver=100">
     <link rel="stylesheet" href="/assets/css/style.css?ver=100">
@@ -19,7 +19,6 @@
 
 <body>
     <div class="page-wrap">
-
         <header class="header-section has-header-main">
             <div class="header-main is-sticky">
                 <div class="container">
@@ -72,53 +71,26 @@
 
                 </div>
             </div>
-            
-            <div class=" hero-slider-wrap">
+
+            <div class="hero-wrap sub-header">
                 <div class="container">
-                    <div class="swiper swiper-carousel swiper-button-s1 swiper-button-s2 on-dark animated"
-                        data-breakpoints='{"0":{"slidesPerView":1,"slidesPerGroup":1}}'
-                        data-loop="true" navigation="true" data-autoplay="false" data-speed="500"
-                        data-centeredslides="false" data-effect="fade">
-                        <div class="swiper-wrapper">
-                            
-                            <!-- Slide -->
-                            <div class="swiper-slide h-auto">
-                                <div class="slider-full-screen set-bg" data-set-bg="https://firebasestorage.googleapis.com/v0/b/koraid.appspot.com/o/product%2Ftest%2Fandrep.png?alt=media&token=f0e0d338-f3ed-4bd7-aace-1ecf9f92ebbb">
-                                    <div class="row">
-                                        <div class="slider-full-body col-lg-6 col-md-8 col-sm-9">
-                                            <h2 class="mb-3 card-title">
-                                                Selamat Datang di Kora
-                                            </h2>
-                                            <p class="mb-4 card-text">
-                                                Website marketplace yang telah dibuat oleh andrep pada tahun 2023
-                                            </p>
-                                            <ul class="btns-group hero-btns">
-                                                <li><a href="/m/explore/" class="btn btn-lg btn-dark">Explore</a></li>
-                                                <li><a href="/m/blog/" class="btn btn-lg btn-outline-dark">blog</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Slide -->
-                            
-                        </div><!-- end swiper-wrapper --><!-- If we need pagination buttons -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                    <div class="hero-content text-center py-0">
+                        <h1 class="hero-title">Explore</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb breadcrumb-s1 justify-content-center mt-3 mb-0">
+                                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Explore</li>
+                            </ol>
+                        </nav>
                     </div>
                 </div>
             </div>
         </header>
-
-        <section class="section-space trending-section bg-gray">
+        
+        <section class="explore-section pt-lg-4 section-space">
             <div class="container">
-                <div class="section-head text-center">
-                    <h2>Trending Produk</h2>
-                </div><!-- end section-head -->
-                <div class="row g-gs koraTrending"></div>
+                <div class="row g-gs koraExplore">
 
-                <div class="text-center mt-4 mt-md-5">
-                    <a href="/m/explore/" class="btn-link btn-link-s1">View all products</a>
                 </div>
             </div>
         </section>
@@ -126,21 +98,21 @@
         <footer class="footer-section bg-dark on-dark" id="kora-footer"></footer>
     </div>
     
-    <!-- The core Firebase JS SDK is always requi  and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
-    <script src="/assets/firebase/db.js"></script>
-    <script src="/assets/firebase/auth.js"></script>
-    <script src="/assets/firebase/kora.min.js"></script>
-    <!-- Scripts -->
+    
+     <!-- The core Firebase JS SDK is always requi  and must be listed first -->
+     <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-firestore.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
+     <script src="/assets/firebase/db.js"></script>
+     <script src="/assets/firebase/auth.js"></script>
+     <script src="/assets/firebase/explore/kora.min.js"></script>
+     <!-- Scripts -->
     <script src="/assets/js/bundle.js"></script>
     <script src="/assets/js/scripts.js"></script>
     <script src="/assets/vendors/kora.data.js"></script>
     <script src="/assets/vendors/navbar/kora.header.js"></script>
-
-
+    
 </body>
 
 </html>
