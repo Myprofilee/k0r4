@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <title>UI Design | Kora</title><!-- Favicon -->
+    <link rel="icon" sizes="16x16" href="images/favicon.png"><!-- Stylesheets -->
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/vendor.bundle.css?ver=100">
+    <link rel="stylesheet" href="/assets/css/style.css?ver=100">
+    <link rel="stylesheet" href="/assets/css/intro.css?ver=100">
+
+    <!-- Add jQuery library -->
+	<link rel="stylesheet" type="text/css" href="/assets/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/assets/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+	<link rel="stylesheet" type="text/css" href=/assets/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+
+</head>
+
+<body>
+
+    <div class="page-wrap">
+        <header class="header-section has-header-main">
+            <div class="header-main is-sticky">
+                <div class="container">
+
+                    <div class="header-wrap">
+
+                        <div class="header-logo">
+                            <a href="index.html" class="logo-link">
+                                <img class="logo-dark logo-img" src="/assets/img/logo/kora-dark.png" alt="kora">
+                                <img class="logo-light logo-img" src="/assets/img/logo/kora-light.png" alt="kora">
+                            </a>
+                        </div>
+
+                        <div class="header-mobile-action">
+                            <div class="header-mobile-wallet me-2">
+                                <a class="icon-btn" href="/auth/">
+                                    <em class="ri-user-3-fill"></em>
+                                </a>
+                            </div>
+                            <div class="header-toggle">
+                                <button class="menu-toggler">
+                                    <em class="menu-on menu-icon ri-menu-3-line"></em>
+                                    <em class="menu-off menu-icon ri-close-line"></em>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <nav class="header-menu menu nav">
+                            <ul class="menu-list ms-lg-auto" id="kora-header">
+                                
+                            </ul>
+                            <ul class="menu-btns">
+                                <li>
+                                    <a href="/auth/" class="btn btn-dark">Login</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="theme-toggler" title="Toggle Dark/Light mode">
+                                        <span>
+                                            <em class="ri-moon-line theme-toggler-show"></em>
+                                            <em class="ri-sun-line theme-toggler-hide"></em>
+                                        </span>
+                                        <span class="theme-toggler-text">Dark Mode</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="header-overlay"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="hero-wrap sub-header">
+                <div class="container">
+                    <div class="hero-content text-center py-0">
+                        <h1 class="hero-title">UI Design</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb breadcrumb-s1 justify-content-center mt-3 mb-0">
+                                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">UI Design</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section class="explore-section pt-lg-4 section-space">
+            <div class="container">
+                <div class="row g-gs koraExplore">
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer-section bg-dark on-dark" id="kora-footer"></footer>
+    </div>
+    
+    
+    <!-- The core Firebase JS SDK is always requi  and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
+    <script src="/assets/firebase/db.js"></script>
+    <script src="/assets/firebase/auth.js"></script>
+    <script src="/assets/firebase/ui-design/kora.min.js"></script>
+    <!-- Scripts -->
+    <script type="text/javascript" src="/assets/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="/assets/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	<script type="text/javascript" src="/assets/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    <script type="text/javascript" src="/assets/lib/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="/assets/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script src="/assets/js/bundle.js"></script>
+    <script src="/assets/js/scripts.js"></script>
+    <script src="/assets/js/fancbox.kora.js"></script>
+    <script src="/assets/vendors/kora.data.js"></script>
+    <script src="/assets/vendors/navbar/kora.header.js"></script>
+    
+</body>
+
+</html>

@@ -25,6 +25,9 @@ function showgallery(curarra) {
             <li class="menu-item">
                 <a href="/m/explore/" class="menu-link">Explore</a>
             </li>
+            <li class="menu-item">
+                <a href="/m/ui-design/" class="menu-link">UI Design</a>
+            </li>
         </ul>
                `
     }
