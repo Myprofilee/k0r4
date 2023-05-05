@@ -23,7 +23,7 @@ function showgallery(curarra) {
                 <a href="/" class="menu-link">Home</a>
             </li>
             <li class="menu-item">
-                <a href="/m/explore/" class="menu-link">Explore</a>
+                <a href="/m/source-code/" class="menu-link">Source Code</a>
             </li>
             <li class="menu-item">
                 <a href="/m/ui-design/" class="menu-link">UI Design</a>
